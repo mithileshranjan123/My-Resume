@@ -1,0 +1,120 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.left-align {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.right-align {
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 25px;
+}
+
+.header p {
+    margin-top: 25px;
+}
+
+.education {
+    text-align: center;
+}
+
+.education-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
+    margin-top: -25px;
+    margin-bottom: 35px;
+}
+
+.university {
+    font-weight: bold;
+}
+.year {
+    font-weight: bold;
+}
+
+.degree {
+    grid-column: 1 / span 2
+}
+
+.place, .year {
+    text-align: right;
+}
+.summary {
+    text-align: center;    
+}
+.experience {
+    text-align: center;
+}    
+.experience-item {
+    display: grid;
+    grid-template-columns: 1.15fr 0.26fr;
+    justify-content: center;
+    text-align: left;
+    margin-top: -38px;
+}
+.experience-detale {
+    margin-top: -25px;
+}
+.certificate {
+    text-align: center;
+}
+.certificate-item {
+    display: grid;
+    grid-template-columns: 1.28fr 0.08fr;
+    align-items: center;
+    text-align: left;
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+.certificate-detale {
+    margin-top: -18px;
+}
+
+/* Default container styles */
+.container {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  /* Styles for tablets (width between 768px and 1024px) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+      width: 80%;
+      padding: 15px;
+    }
+  }
+  
+  /* Styles for small desktops (width between 1024px and 1200px) */
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    .container {
+      width: 70%;
+      padding: 15px;
+    }
+  }
+  
+  /* Styles for large desktops (width above 1200px) */
+  @media (min-width: 1200px) {
+    .container {
+      width: 60%;
+      padding: 10px;
+    }
+  }
+  
+  /* Styles for mobile devices (width below 768px) */
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
